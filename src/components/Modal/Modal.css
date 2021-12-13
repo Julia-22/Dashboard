@@ -18,6 +18,16 @@
   background-color: #fff;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  animation: modalAnimation 150ms ease-in forwards;
+}
+
+@keyframes modalAnimation {
+  from{
+    transform: scale(0.4);
+  }
+  to{
+    transform: scale(1);
+  }
 }
 
 .close-btn{
