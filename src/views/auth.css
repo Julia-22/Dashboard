@@ -1,0 +1,132 @@
+.auth_form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  margin: auto;
+	background-color: #f2f2f2;
+	width: 500px;
+	height: 300px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.auth_from_input{
+  margin: 0 auto;
+	width: 250px;
+	height: 50px;
+	background-color: #e5ebf5;
+	border: solid #e5ebf5 2px;
+  outline:none;
+	border-radius: 15px;
+	text-indent: 20px;
+	color: #19122b;
+	font-size: 16px;
+	font-weight: 500;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.auth_from_input:focus {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.auth_from_input:nth-child(1){
+  margin-bottom: 20px;
+}
+.button_container{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.button_submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  margin-left: 40px;
+  background-color: #fff;
+  border: none;
+	border-radius: 15px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	transition-duration: 400ms;
+  outline: none;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.button_submit:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.button_link{
+  position: relative;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button_link button{
+  height: 30px;
+  font-weight: 800;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button_link span{
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50%;
+  background-color: #2d38f0;
+  border-radius: 2px;
+  transition: all 250ms ease-in-out;
+  display: block;
+  cursor: pointer;
+}
+.button_link:hover span{
+  width: 90%;
+}
+
+.boardsView{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header p{
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.logoutButton{
+  align-self: end;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  color:rgba(0, 0, 0, 0.8);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.logoutButton:hover, 
+.logoutButton:focus{
+  transform: scale(1.1);
+}

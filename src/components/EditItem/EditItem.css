@@ -1,0 +1,22 @@
+.editItem_container{
+  position: fixed;
+  /* top: -70px;
+  right: -110px; */
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 70px;
+  z-index: 999;
+}
+.editItem_container button{
+  height: 35px;
+  border: none;
+  background-color: #fff;
+  border:  1px solid rgba(160, 158, 158, 0.3);
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+.editItem_container button:hover,
+.editItem_container button:focus{
+  background-color: rgb(223, 222, 222);
+}

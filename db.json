@@ -1,0 +1,72 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Open",
+      "items": [
+        {
+          "id": 1,
+          "title": "Go to shop",
+          "description": "jkhkjhkhkjhkjhkjhkjhkjhjkjhkjhkjhkjhkjhkjhkjhkjjhkjhkjhkjhkjhkhkjhk",
+          "priority": {
+            "id": 1,
+            "title": "Low Priority"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "In progress",
+      "items": [
+        {
+          "id": "qu5mRTsW3",
+          "title": "Buy flowers",
+          "description": "fdsfsfsf",
+          "priority": {
+            "id": 1,
+            "title": "Low Priority"
+          }
+        },
+        {
+          "id": 2,
+          "title": "Washes",
+          "description": "jkhkjhkhkjhkjhkjhkjhkjhjkjhkjhkjhkjhkjhkjhkjhkjjhkjhkjhkjhkjhkhkjhk",
+          "priority": {
+            "id": 2,
+            "title": "Med Priority"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "In review",
+      "items": [
+        {
+          "id": "gsQBvtzYq",
+          "title": "Watch video repeta's",
+          "description": "dgdgdg",
+          "priority": {
+            "id": 2,
+            "title": "Med Priority"
+          }
+        },
+        {
+          "id": "Qs2XfDGeZ",
+          "title": "Eat snake",
+          "description": "sjfksdjhksjfh",
+          "priority": {
+            "id": 3,
+            "title": "High Priority"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Done",
+      "items": []
+    }
+  ]
+}

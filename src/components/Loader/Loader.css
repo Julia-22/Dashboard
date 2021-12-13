@@ -1,0 +1,37 @@
+.loader svg{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	height:100vh;
+	width:100vw;
+}
+
+.l {
+  font: bold 4.5em sans-serif;
+fill: #400BC1;
+}
+.o {
+  font: bold 4em sans-serif;
+fill: #400BC1;
+}
+.a {
+  font: bold 3.5em sans-serif;
+fill: #400BC1;
+}
+.d {
+  font: bold 3em sans-serif;
+fill: #400BC1;
+}
+.i {
+  font: bold 2.5em sans-serif;
+fill: #400BC1;
+}
+.n {
+  font: bold 2em sans-serif;
+fill: #400BC1;
+}
+.g {
+  font: bold 1.5em sans-serif;
+fill: #400BC1;
+}

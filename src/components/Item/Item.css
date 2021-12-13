@@ -1,0 +1,19 @@
+.editButton{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.notDraggable{
+  background-color: rgba(248, 245, 245, 0.8);
+  opacity: 0.45;
+}
+
+.dragOver{
+  border: 1.5px dashed rgb(59, 59, 243);
+  background-color: #fff;
+  opacity: 1;
+}

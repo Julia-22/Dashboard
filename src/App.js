@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { Routes ,Route } from 'react-router-dom';
+
+import RegisterView from './views/RegisterView/RegisterView';
+import LoginView from './views/LoginView/LoginView';
+import BoardsView from './views/BoardsView/BoardsView';
+
+import PrivateRoute from './components/PrivateRoute';
+import PublicRoute from './components/PublicRoute';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Routes>
+        <Route path="/register" element={<PublicRoute element={RegisterView}/>} />
+        <Route path="/login" element={<PublicRoute element={LoginView}/>} />
+        <Route path="/boards" element={<PrivateRoute element={BoardsView}/>}/>
+      </Routes>
     </div>
   );
 }

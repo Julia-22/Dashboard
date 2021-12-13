@@ -1,0 +1,133 @@
+.addTask_modal{
+  position: relative;
+}
+.style_container{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #00C9FF;
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.title_container{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 30px;
+  background-color: rgba(59, 173, 154, 0.13);
+  color: #368d57;
+}
+.addTaskForm{
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+.addTaskForm label{
+  position: relative;
+}
+.addTaskForm p{
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: rgb(104, 103, 103);
+}
+.addTaskForm input{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  color: rgb(158, 158, 158);
+  border: 1px solid rgb(104, 103, 103);
+}
+.addTaskForm textarea{
+  width: 100%;
+  height: 100px;
+  padding:  10px 15px;
+  margin-bottom: 15px;
+  resize: none;
+  color: rgb(104, 103, 103);
+  border: 1px solid rgb(104, 103, 103);
+}
+.addTaskForm input:hover,
+.addTaskForm input:focus,
+.addTaskForm textarea:hover,
+.addTaskForm textarea:focus{
+  border: 0.5px solid rgb(194, 223, 205);
+  outline: 0.5px solid rgb(194, 223, 205);
+}
+.addTaskForm select{
+  width: 110px;
+  height: 30px;
+  padding: 0 15px;
+  color: rgb(104, 103, 103);
+  border: 1px solid rgb(104, 103, 103);
+  cursor: pointer;
+}
+.addTaskForm select:focus{
+  color: rgb(104, 103, 103);
+  border: 1px solid rgb(104, 103, 103);
+  outline: 0.5px solid rgb(104, 103, 103);
+}
+.addTaskForm option{
+  position: relative;
+}
+.addTaskForm option::before{
+  content: "sdfsdfs";
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  z-index: 999999;
+}
+.addTaskForm option:hover{
+  background-color: rgba(59, 173, 154, 0.13);
+}
+.required{
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  color: red;
+  font-size: 10px;
+}
+.addTaskForm select ~ .required{
+  bottom: -12px;
+}
+
+
+.buttons_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.buttons_container button{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: transform 250ms ease-in-out;
+  cursor: pointer;
+}
+.buttons_container button:hover,
+.buttons_container button:focus{
+  transform: scale(1.1);
+}
+.buttons_container .button_cancel{
+  margin-right: 20px;
+  color: #62b66b;
+  background-color: #fff;
+  border: 0.5px solid rgba(104, 103, 103, 0.295);
+}
+.buttons_container .button_save{
+  background-color: #62b66b;
+  color: white;
+  border: none;
+}
