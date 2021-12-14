@@ -83,8 +83,8 @@ export default function Item({ item, board }) {
     setIsOpenEditModal(true);
   }
 
-  const posX = editButtonRef.current?.getBoundingClientRect()?.x+20;
-  const posY = editButtonRef.current?.getBoundingClientRect()?.y-60;
+  const posX = editButtonRef.current?.getBoundingClientRect()?.x-100;
+  const posY = editButtonRef.current?.getBoundingClientRect()?.y+25;
 
   return (<>
     <div
